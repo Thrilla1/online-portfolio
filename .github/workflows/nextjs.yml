@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Predeploy
-        run: $yarn predeploy
+        run: yarn predeploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -50,4 +50,4 @@ jobs:
           name: page
           path: .
       - name: Deploy to GitHub Pages
-        run: $yarn deploy
+        run: yarn deploy
