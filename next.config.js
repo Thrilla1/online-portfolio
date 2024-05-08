@@ -30,6 +30,9 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
   },
+    images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
