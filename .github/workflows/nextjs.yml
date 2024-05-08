@@ -75,7 +75,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Predeploy
         run: ${{ steps.detect-package-manager.outputs.runner }} predeploy
-        - name: Deploy
+      - name: Deploy
         run: ${{ steps.detect-package-manager.outputs.runner }} deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
