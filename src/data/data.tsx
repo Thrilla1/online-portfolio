@@ -10,7 +10,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -353,5 +352,4 @@ export const socialLinks: Social[] = [
   /*{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},*/
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/harry-iacovou/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/harrymi03/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/HarryIacovou'},
 ];
