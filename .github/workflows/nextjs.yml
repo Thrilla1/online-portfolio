@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Predeploy
-        run: ${{ steps.detect-package-manager.outputs.runner }} predeploy
+        run: $yarn predeploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
