@@ -35,6 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: page
           path: out
 
   # Deployment job
@@ -47,7 +48,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@master
         with:
-          name: out
-          path: .
+          name: page
+          path: out
       - name: Deploy to GitHub Pages
         run: yarn deploy
