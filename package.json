@@ -4,15 +4,15 @@
   "homepage": "https://thrilla1.github.io/online-portfolio",
   "private": true,
   "scripts": {
-    "build": "yarn compile && yarn next export",
+    "build": "yarn compile && && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "yarn next start",
     "sitemap": "yarn next-sitemap",
-	"predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+	"predeploy": "yarn run build && yarn next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
