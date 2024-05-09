@@ -34,7 +34,9 @@ const Page: NextPage<PageProps> = memo(({children, title, description}) => {
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
       </Head>
-      {children}
+      <div className="overflow-x-hidden">
+        {children}
+      </div>
     </>
   );
 });
