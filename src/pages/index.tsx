@@ -13,8 +13,8 @@ import Resume from '../components/Sections/Resume';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = 'Hi, I\'m Harry!';
-  const description = "Welcome, here you can find my CV, portfolio, and how to contact me.";
+  const title = 'Harry Michael-Iacovou';
+  const description = "Welcome, here you can find my CV, and how to contact me.";
 
   return (
     <Page description={description} title={title}>
