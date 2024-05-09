@@ -86,7 +86,7 @@ export interface PortfolioItem {
 /**
  * Resume section
  */
-export interface TimelineItem {
+export interface TimelineItemValue {
   date: string;
   location: string;
   title: string;
