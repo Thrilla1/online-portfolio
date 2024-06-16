@@ -102,7 +102,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'London, UK', Icon: MapIcon},
     {label: 'Age', text: '20', Icon: CalendarIcon},
     {label: 'Nationality', text: 'British / Cypriot', Icon: FlagIcon},
-    {label: 'Interests', text: 'Traveling', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Traveling, Cycling, Film, Music', Icon: SparklesIcon},
     {label: 'Study', text: 'Lancaster University', Icon: AcademicCapIcon},
     /*{label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},*/
   ],
