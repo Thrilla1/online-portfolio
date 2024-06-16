@@ -92,8 +92,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `An ambitious final-year BSc Hons Computer Science student at Lancaster University, with a keen interest in Software Development. A team worker, as well as being adaptable to changing and fast paced environments. Meets deadlines, and always strives to make work that stands out.
-I am seeking opportunities in London and potentially internationally, working in full-stack development.`,
+  description: `Final-year Computer Science student (Lancaster University, First Class expected) with a strong academic 
+  foundation and proven ability to learn quickly and apply knowledge effectively.  Experienced in React, Java, C#, SQL 
+  & more, with a demonstrated ability to deliver high-quality results in academic projects. Successfully contributed 
+  to a large-scale project for a multinational client at Aethersys, showcasing strong teamwork and technical skills. 
+  Eager to transition my skills and passion for learning to a professional career, seeking a graduate software 
+  development role in London where I can contribute to innovative solutions and continue to grow as a developer.`,
   aboutItems: [
     {label: 'Location', text: 'London, UK', Icon: MapIcon},
     {label: 'Age', text: '20', Icon: CalendarIcon},
